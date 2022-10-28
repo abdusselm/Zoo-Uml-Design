@@ -1,4 +1,4 @@
-# Zoo-Uml-Design
+# Zoo-UML-Design
 
 [Patika.dev](https://www.patika.dev/tr)
 
@@ -6,7 +6,7 @@ Hayvanat Bahçesi Yönetim Sistemininin belirtilen kriterlece UML gösteriminin 
 
 ---
 
-Hayvanat bahçesi yönetim sistemine dair bizlerden istenen özellikle aşağıda ki gibidir.
+Hayvanat bahçesi yönetim sistemine dair bizlerden istenen özellikler aşağıda ki gibidir.
 
 ```
 Bir hayvanat bahçesindeki hayvanlar hakkındaki bilgileri takip etmek için bir sistem tasarlıyorsunuz.
@@ -28,7 +28,7 @@ Polimorfizm modelini kullanarak, yukarıda açıklanan durumu ele almak için bi
 
 Yukarıda ki istenen özelliklere göre Hayvanat Bahçesi Yönetim Sistemi projesinin UML-Design'i aşağıdaki gibidir.
 
-Görselin altında bu design'a ait açıklamalar da yer almaktadır.
+Görselin altında bu design'a ait açıklamalar yer almaktadır.
 
 ![github](zoo.png)
 
@@ -38,7 +38,7 @@ Görselin altında bu design'a ait açıklamalar da yer almaktadır.
 
 2. Class’lara eklenen attribute’ların encapsulation ilkesine göre eklenmesine dikkat edilmiştir.
 
-3. Atlar, kediler ve kemirgenler Ağırlık ve Yaş attribute’larını ve bunları set ve get eden metotları Animal Class’ından miras (Inheritance) almaktadırlar.
+3. Atlar, kediler ve kemirgenler Ağırlık, Yaş ve diğer  attribute’larını ve bunları set ve get eden metotları Animal Class’ından miras (Inheritance) almaktadırlar.
 
 4. getDosage ve getFeedSchedule metodları gruplar arasında farklılık göstereceğinden UML şemasında miras alınan super class’dan override edildiği ifade edilmiştir.
 
